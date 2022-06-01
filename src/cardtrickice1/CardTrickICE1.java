@@ -56,7 +56,10 @@ public class CardTrickICE1 {
         }
         
         if(match){System.out.println("card is found");} else {System.out.println("card is not found");}
-
+        Card luckyCard  = new Card();
+        luckyCard.setValue(2);
+        luckyCard.setSuits(2);
+        System.out.println("lucky card is " + luckyCard.getValue() + " of " + luckyCard.getSuits());
     }
 
 }
