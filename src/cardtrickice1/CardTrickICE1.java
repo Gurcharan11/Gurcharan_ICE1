@@ -27,7 +27,8 @@ public class CardTrickICE1 {
         }
         //step 2:take card input from user
         
-        //step 3: match with array 
+        //step 3: match with array
+        
     }
     
 }
