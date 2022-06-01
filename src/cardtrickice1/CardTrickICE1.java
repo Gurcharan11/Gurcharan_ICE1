@@ -33,10 +33,6 @@ public class CardTrickICE1 {
             magicHand[i] = c1;
             System.out.println(c1.getValue() + " " + c1.getSuits());
         }
-        //step 2:take card input from user
-        
-        //step 3: match with array
-        
         //step 2:take input 
         Scanner input = new Scanner(System.in);
         Card c2 = new Card();
