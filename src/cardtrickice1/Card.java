@@ -3,6 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+/*
+ * Name : Gurcharan Singh
+ * Student Number : 991652322
+ */
 package cardtrickice1;
 
 /** define card value and suits
@@ -39,9 +44,10 @@ public class Card
     }
 
     /**
-     * @param suits the suits to set
+     * @param suitsindex the index of suits form SUITS array to set
      */
-    public void setSuits(String suits) {
+    public void setSuits(int suitsindex) {
+        String suits= SUITS[suitsindex];
         this.suits = suits;
     }
    //number
