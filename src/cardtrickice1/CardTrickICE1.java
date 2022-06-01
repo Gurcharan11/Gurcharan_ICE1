@@ -25,7 +25,7 @@ public class CardTrickICE1 {
             c1.setValue(2);//use a method to generate random *13
             c1.setSuits("hearts");//random method suit 
         }
-        //step 2:take input 
+        //step 2:take card input from user
         
         //step 3: match with array 
     }
